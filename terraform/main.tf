@@ -4,13 +4,13 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "umagayathri.vasu@tcs.com"
     AccountName               = "Development"
-    ManagedOrganizationalUnit = "Sandbox-Account"
+    ManagedOrganizationalUnit = "AFT_ACCT"
     SSOUserEmail              = "umagayathri.vasu@tcs.com"
     SSOUserFirstName          = "Development"
     SSOUserLastName           = "AFT"
   }
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "Account_Name" = "Development"
   }
 
   change_management_parameters = {

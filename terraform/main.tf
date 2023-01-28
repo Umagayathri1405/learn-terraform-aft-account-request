@@ -9,7 +9,6 @@ module "sandbox" {
     SSOUserFirstName          = "Development"
     SSOUserLastName           = "AFT"
   }
-
   account_tags = {
     "Learn Tutorial" = "AFT"
   }
@@ -22,6 +21,5 @@ module "sandbox" {
   custom_fields = {
     group = "Development"
   }
-
   account_customizations_name = "development"
 }

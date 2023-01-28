@@ -12,12 +12,10 @@ module "uat_acct" {
   account_tags = {
     "Account_Name" = "Acceptance"
   }
-
   change_management_parameters = {
     change_requested_by = "Umagayathri"
     change_reason       = "Acceptance account creation"
   }
-
   custom_fields = {
     group = "Acceptance"
   }

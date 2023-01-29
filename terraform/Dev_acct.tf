@@ -2,7 +2,7 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "umagayathri.vasu@tcs.com"
+    AccountEmail              = "devacct375@gmail.com"
     AccountName               = "Development"
     ManagedOrganizationalUnit = "AFT_ACCT"
     SSOUserEmail              = "umagayathri.vasu@tcs.com"

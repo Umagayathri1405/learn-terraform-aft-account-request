@@ -2,7 +2,7 @@ module "uat_acct" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "uatacct2023@tcs.com"
+    AccountEmail              = "uatacct3@gmail.com"
     AccountName               = "Acceptance"
     ManagedOrganizationalUnit = "AFT_ACCT"
     SSOUserEmail              = "umagayathri.vasu@tcs.com"

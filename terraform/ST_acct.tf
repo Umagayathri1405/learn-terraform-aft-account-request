@@ -3,21 +3,21 @@ module "acct_request" {
 
   control_tower_parameters = {
     AccountEmail              = "uatacct375@gmail.com"
-    AccountName               = "Acceptance"
+    AccountName               = "Staging"
     ManagedOrganizationalUnit = "AFT_ACCT"
     SSOUserEmail              = "umagayathri.vasu@tcs.com"
-    SSOUserFirstName          = "Acceptance"
+    SSOUserFirstName          = "Staging"
     SSOUserLastName           = "AFT"
   }
   account_tags = {
-    "Account_Name" = "Acceptance"
+    "Account_Name" = "Staging"
   }
   change_management_parameters = {
     change_requested_by = "Umagayathri"
-    change_reason       = "Acceptance account creation"
+    change_reason       = "Staging account creation"
   }
   custom_fields = {
-    group = "Acceptance"
+    group = "Staging"
   }
-  account_customizations_name = "Acceptance"
+  account_customizations_name = "Staging"
 }

@@ -1,4 +1,4 @@
-module "uat_acct" {
+module "uat_acct_01" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {

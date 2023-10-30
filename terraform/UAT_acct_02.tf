@@ -1,6 +1,5 @@
 module "uat_acct_02" {
   source = "./modules/aft-account-request"
-
   control_tower_parameters = {
     AccountEmail              = "uatacct02@gmail.com"
     AccountName               = "Acceptance_02"

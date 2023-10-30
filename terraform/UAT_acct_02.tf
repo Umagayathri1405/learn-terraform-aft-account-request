@@ -16,7 +16,7 @@ module "uat_acct_02" {
     change_reason       = "Second Acceptance account creation"
   }
   custom_fields = {
-    group = "Acceptance_02"
+    group = "Acceptance_02_Acct"
   }
   account_customizations_name = "Acceptance_02"
 }
